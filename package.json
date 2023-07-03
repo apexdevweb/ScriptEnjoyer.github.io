@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "aos": "^2.3.4",
+    "rellax": "^1.12.1"
+  }
+}
