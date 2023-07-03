@@ -17,10 +17,6 @@ main {
   padding: 0;
   box-sizing: border-box;
 }
-#S1 {
-  height: 30vh;
-  width: 100%;
-}
 .separate1 {
   margin-top: 0;
   height: 0.2vh;
@@ -36,10 +32,6 @@ main {
   border-radius: 10px;
   margin-left: 25vw;
 }
-
-/******↓↓↓MENU SELECT ↓↓↓**********/
-
-/******↑↑↑MENU SELECT FIN↑↑↑******/
 /******↓↓↓LIENS DE SORTIE ↓↓↓**********/
 .sortie {
   padding: 5px;
@@ -349,7 +341,7 @@ li a:hover {
 }
 
 .it0Contain > img {
-  height: 28vh;
+  height: 25vh;
   width: 25vw;
   position: absolute;
   mix-blend-mode: overlay;
@@ -469,6 +461,26 @@ textarea:hover {
 }
 /*↓effetBordure↓*/
 /******↓↓↓SECTION 1↓↓↓*******************/
+#S1 {
+  height: 30vh;
+  width: 100%;
+}
+.labelImage {
+  top: 0;
+  height: 20vh;
+  width: 100%;
+  background-color: rgba(36, 145, 172, 0.629);
+  border-radius: 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}
+.labelImage:hover {
+  display: none;
+}
 .cadre1 {
   position: relative;
   padding: 0;
