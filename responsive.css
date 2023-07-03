@@ -103,7 +103,7 @@
   }
 
   .it0Contain > img {
-    height: 30vh;
+    height: 25vh;
     width: 80vw;
     position: absolute;
     mix-blend-mode: overlay;
