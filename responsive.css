@@ -57,6 +57,7 @@
     align-items: center;
     border: 1px solid #fff;
     border-radius: 10px;
+    animation: slideIn 0.3s forwards ease-in-out;
   }
   /******↑↑↑MENU BURGER FIN↑↑↑******/
 
