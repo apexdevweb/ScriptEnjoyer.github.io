@@ -28,13 +28,18 @@
                 </span>
             </h4>
         </div>
+        <div class="burgerContainer" onclick="myFunction(this)" data-aos="fade-left" data-aos-delay="1800">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
     </div>
     <div class="sortie" data-aos="fade-right" data-aos-delay="1800">
         <a href="index.html">Exit<i class="fa-solid fa-arrow-right"></i></a>
     </div>
     <header>
         <nav>
-            <ul>
+            <ul class="myLinks">
                 <li><a href="#item0">Home</a></li>
                 <li><a href="#item1">About</a></li>
                 <li><a href="#item2">Skills</a></li>
@@ -134,7 +139,7 @@
 
                     <div class="cadre1">
                         <a href="#">
-                            <label for="apercu" class="labelImage">Art Gallery</label>
+                            <label for="apercu" class="labelImage">Gallery</label>
                             <img src="image/artdistrict.JPG" name="aperçu">
                         </a>
                     </div>
@@ -142,7 +147,7 @@
                 <div class="projetContenu" data-aos="zoom-out" data-aos-delay="700" data-aos-duration="800">
                     <div class="cadre1">
                         <a href="#">
-                            <label for="apercu" class="labelImage">Garden Showcase</label>
+                            <label for="apercu" class="labelImage">Showcase</label>
                             <img src="image/asiagarden.JPG" name="aperçu">
                         </a>
                     </div>
@@ -212,6 +217,9 @@
             </div>
         </div>
     </footer>
+    <!-- ↓↓↓ Toggle & burger ↓↓↓ -->
+    <script src="asset/toggle.js"></script>
+    <script src="asset/burger.js"></script>
     <!-- ↓↓↓ onglets ↓↓↓ -->
     <script src="asset/onglets.js"></script>
     <!-- ↓↓↓ Font awesome ↓↓↓ -->

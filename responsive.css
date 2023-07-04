@@ -44,6 +44,21 @@
     font-family: "Bacasime Antique", serif;
   }
   /******↑↑↑TITRE ANIME FIN↑↑↑******/
+  /******↓↓↓MENU BURGER ↓↓↓**********/
+  .burgerContainer {
+    margin: 10px 5px 2px 2px;
+    display: block;
+  }
+  .show {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+  /******↑↑↑MENU BURGER FIN↑↑↑******/
 
   /******↓↓↓LIENS DE SORTIE ↓↓↓**********/
   .sortie {
@@ -62,15 +77,13 @@
   }
   /******↑↑↑INDEX DE GARDEFIN↑↑↑******/
   nav ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    display: none;
+    height: auto;
+    width: auto;
   }
   li a {
-    margin-left: -8vw;
-    font-size: 1.3rem;
+    left: 0;
+    font-size: 1.8rem;
   }
 
   .contenu h3 {
