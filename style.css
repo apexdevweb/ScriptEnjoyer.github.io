@@ -684,7 +684,63 @@ span {
   justify-content: space-evenly;
   align-items: center;
 }
-/******↑↑↑SECTION 3 FIN↑↑↑******/
+.lineContainer {
+  margin-top: 0;
+  margin-left: 42.5vw;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 5vh;
+  width: 45vw;
+}
+.lineDecoA {
+  height: 5px;
+  width: 45vw;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.lineDecoB {
+  height: 5px;
+  width: 35vw;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.lineDecoC {
+  height: 5px;
+  width: 25vw;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.lineDecoD {
+  height: 5px;
+  width: 15vw;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.lineDecoE {
+  height: 5px;
+  width: 5vw;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.stagContainer {
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+}
+.square {
+  height: 5vh;
+  width: 100%;
+  background-color: rgba(36, 145, 172, 0.629);
+  opacity: 0.9;
+}
+/******↑↑↑SECTION 3 FIN↑↑↑*************************/
 /******↓↓↓FOOTER↓↓↓******/
 footer {
   margin-top: 5vh;

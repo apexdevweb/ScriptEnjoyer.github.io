@@ -60,6 +60,47 @@
     animation: slideIn 0.3s forwards ease-in-out;
   }
   /******↑↑↑MENU BURGER FIN↑↑↑******/
+  .lineContainer {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 8vh;
+    width: 80vw;
+  }
+  .lineDecoA {
+    height: 5px;
+    width: 65vw;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  .lineDecoB {
+    height: 5px;
+    width: 50vw;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  .lineDecoC {
+    height: 5px;
+    width: 35vw;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  .lineDecoD {
+    height: 5px;
+    width: 20vw;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  .lineDecoE {
+    height: 5px;
+    width: 5vw;
+    border-radius: 20px;
+    background-color: #fff;
+  }
 
   /******↓↓↓LIENS DE SORTIE ↓↓↓**********/
   .sortie {
