@@ -167,6 +167,7 @@
     background: none;
     box-sizing: border-box;
     padding: 1px;
+    border: none;
   }
 
   .it0Contain > img {
