@@ -68,9 +68,29 @@
     box-sizing: border-box;
   }
   /******↑↑↑MENU BURGER FIN↑↑↑******/
-  .stagContainer {
-    gap: -1px -1px;
+  /*******************************************PRIMARY-CONTAINER ET STAGGERING*********************************/
+  .primary_container {
+    position: relative;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
   }
+  .stagContainer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .square {
+    height: 5.5vh;
+    width: 100%;
+    background-color: rgba(36, 145, 172, 0.413);
+  }
+  /******************************************PRIMARY-CONTAINER ET STAGGERING FIN******************************/
   .lineContainer {
     margin-top: 0;
     margin-left: auto;
@@ -174,12 +194,11 @@
   .it0Contain > img {
     height: 25vh;
     width: 80vw;
-    position: absolute;
+
     mix-blend-mode: overlay;
     box-sizing: border-box;
   }
   .items {
-    box-shadow: 1px 2px 10px;
     box-sizing: border-box;
   }
   .items p {
