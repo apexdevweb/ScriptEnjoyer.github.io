@@ -25,6 +25,7 @@
     padding: 0;
     margin: 0;
     overflow: hidden;
+    box-sizing: border-box;
   }
   .title-sub-container {
     height: auto;
@@ -33,23 +34,27 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
+    box-sizing: border-box;
   }
   .title-sub-container > h2 {
     line-height: 1rem;
     margin: 0;
     font-size: 4rem;
+    box-sizing: border-box;
   }
   .title-sub-container > h4 {
     line-height: 2rem;
     margin: 0;
     font-size: 2rem;
     font-family: "Bacasime Antique", serif;
+    box-sizing: border-box;
   }
   /******↑↑↑TITRE ANIME FIN↑↑↑******/
   /******↓↓↓MENU BURGER ↓↓↓**********/
   .burgerContainer {
     margin: 10px 5px 2px 2px;
     display: block;
+    box-sizing: border-box;
   }
   .show {
     display: flex;
@@ -60,6 +65,7 @@
     border: 1px solid #fff;
     border-radius: 10px;
     animation: slideIn 0.3s forwards ease-in-out;
+    box-sizing: border-box;
   }
   /******↑↑↑MENU BURGER FIN↑↑↑******/
   .lineContainer {
