@@ -349,7 +349,6 @@ li a:hover {
 .items .OgltsContainer:target {
   display: block;
   overflow: hidden;
-  padding: 5px;
   box-shadow: 2px 2px 10px #000;
 }
 .OgltsContainer > h2 {
@@ -394,12 +393,6 @@ li a:hover {
   width: 25vw;
   position: absolute;
   mix-blend-mode: overlay;
-  box-sizing: border-box;
-}
-.it0Contain > video {
-  height: auto;
-  width: 100%;
-  position: relative;
   box-sizing: border-box;
 }
 .items {
@@ -748,15 +741,13 @@ span {
   width: 100%;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 0px 0px;
 }
 .square {
   height: 5vh;
   width: 100%;
-  background-color: rgba(36, 145, 172, 0.629);
-  opacity: 0.9;
+  background-color: rgba(36, 145, 172, 0.413);
 }
 /******↑↑↑SECTION 3 FIN↑↑↑*************************/
 /******↓↓↓FOOTER↓↓↓******/
