@@ -1,4 +1,5 @@
-function stagEl() {
+//je stock l'animation dans une fonction fléché
+const stagEl = () => {
   anime({
     targets: ".square",
     scale: [
@@ -8,4 +9,4 @@ function stagEl() {
     delay: anime.stagger(200, { grid: [14, 5], from: "center" }),
     direction: "alternate",
   });
-}
+};
