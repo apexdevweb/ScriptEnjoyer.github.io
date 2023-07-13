@@ -535,3 +535,579 @@
   /******↑↑↑SECTION 3 FIN↑↑↑******/
   /******↑↑↑RESPONSIVE SMARTPHONE FIN↑↑↑******/
 }
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/******************RESPONSIVE**LANDSCAPE**********/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+@media screen and (orientation: lanscape) {
+  body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background: url(image/portrait1.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+  }
+  .ml2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.1rem;
+  }
+  /******↓↓↓TITRE ANIME↓↓↓******/
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 30vh;
+    width: 100%;
+    background: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .title-sub-container {
+    height: auto;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .title-sub-container > h2 {
+    line-height: 1rem;
+    margin: 0;
+    font-size: 4rem;
+    box-sizing: border-box;
+  }
+  .title-sub-container > h4 {
+    line-height: 2rem;
+    margin: 0;
+    font-size: 2rem;
+    font-family: "Bacasime Antique", serif;
+    box-sizing: border-box;
+  }
+  /******↑↑↑TITRE ANIME FIN↑↑↑******/
+  /******↓↓↓MENU BURGER ↓↓↓**********/
+  .burgerContainer {
+    margin: 10px 5px 2px 2px;
+    display: block;
+    box-sizing: border-box;
+  }
+  .show {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    animation: slideIn 0.3s forwards ease-in-out;
+    box-sizing: border-box;
+  }
+  /******↑↑↑MENU BURGER FIN↑↑↑******/
+  /*******************************************PRIMARY-CONTAINER ET STAGGERING*********************************/
+  .primary_container {
+    position: relative;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .stagContainer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .square {
+    height: 5.5vh;
+    width: 100%;
+    background-color: rgba(36, 145, 172, 0.413);
+  }
+  /******************************************PRIMARY-CONTAINER ET STAGGERING FIN******************************/
+  .lineContainer {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 8vh;
+    width: 80vw;
+  }
+  .lineDecoA {
+    height: 5px;
+    width: 65vw;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  .lineDecoB {
+    height: 5px;
+    width: 50vw;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  .lineDecoC {
+    height: 5px;
+    width: 35vw;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  .lineDecoD {
+    height: 5px;
+    width: 20vw;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  .lineDecoE {
+    height: 5px;
+    width: 5vw;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+
+  /******↓↓↓LIENS DE SORTIE ↓↓↓**********/
+  .sortie {
+    padding: 5px;
+    margin: 0px 500px 0px 0px;
+  }
+  /******↑↑↑LIENS DE SORTIE FIN↑↑↑******/
+  /******↓↓↓INDEX DE GARDE↓↓↓**********/
+  .ml15 {
+    font-weight: 800;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    color: #fff;
+    text-align: center;
+  }
+  /******↑↑↑INDEX DE GARDEFIN↑↑↑******/
+  nav ul {
+    display: none;
+    height: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  li a {
+    left: 0;
+    font-size: 1.8rem;
+  }
+
+  .contenu h3 {
+    height: auto;
+    width: 26vw;
+    padding: 5px;
+    margin-left: 1vw;
+    font-size: 1rem;
+    border-bottom: 1px solid white;
+  }
+  h1 {
+    width: 75vw;
+  }
+  #S1 > h2 {
+    text-align: center;
+  }
+  hr {
+    width: 75vw;
+  }
+  /******↓↓↓CONTENU ONGLET↓↓↓******/
+  .it0Contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    background: none;
+    box-sizing: border-box;
+  }
+
+  .it0Contain > img {
+    height: 25vh;
+    width: 80vw;
+
+    mix-blend-mode: overlay;
+    box-sizing: border-box;
+  }
+  .items {
+    box-sizing: border-box;
+  }
+  .items p {
+    line-height: 1.5;
+  }
+
+  .items .imgContain {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 80vh;
+    width: auto;
+  }
+  .imgContain > img {
+    margin-top: 1vh;
+    height: 25vh;
+    width: auto;
+    box-shadow: 1px 2px 3px black;
+  }
+  .onglet0 {
+    height: 30vh;
+  }
+  .service0 {
+    display: block;
+  }
+  .service1,
+  .service2,
+  .service3 {
+    font-size: 1.2rem;
+    padding: 5px;
+    display: block;
+  }
+  /******↑↑↑CONTENU ONGLET FIN↑↑↑******/
+  /******↓↓↓FORMULAIRE DE CONTACTE↓↓↓******/
+  form {
+    width: 25vw;
+    height: 55vh;
+  }
+  form > input[type="text"],
+  input[type="email"] {
+    width: 75vw;
+    height: 5vh;
+  }
+  form > input[type="submit"] {
+    width: 25vw;
+    height: 6vh;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    border: none;
+  }
+  form > input[type="text"]:hover,
+  input[type="email"]:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  form > input[type="submit"]:hover {
+    background-color: #000;
+    color: #fff;
+    box-shadow: 1px 1px 15px black;
+    transform: scale(1.2);
+    transition: 0.3s ease;
+  }
+  textarea {
+    border: none;
+    border-radius: 5px;
+  }
+  textarea:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  /******↑↑↑FORMULAIRE DE CONTACTE FIN↑↑↑******/
+  .activeContenu {
+    height: 105vh;
+    width: 100%;
+  }
+  .separate1 {
+    margin-top: 0;
+    height: 0.2vh;
+    width: 50vw;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 25vw;
+  }
+  .separate2 {
+    top: auto;
+    height: 0.2vh;
+    width: 50vw;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 25vw;
+  }
+  .liensExternes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .container {
+    margin-top: 0;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .projetContenu {
+    margin-top: 3vh;
+    height: 20vh;
+    width: 75vw;
+  }
+  .projetContenu img {
+    height: 19.9vh;
+    width: 100%;
+  }
+  #S1 {
+    height: 110vh;
+  }
+  article {
+    margin-top: 3vh;
+    height: 45vh;
+    overflow: hidden;
+  }
+  article > img {
+    height: 150px;
+    width: 150px;
+  }
+
+  article > p {
+    text-shadow: 1px 2px 2px black;
+  }
+  /******↓↓↓FOOTER↓↓↓******/
+  .bannerFooter {
+    background-size: 30%;
+    height: auto;
+    width: 100%;
+  }
+  .signature {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 5px;
+    color: #000;
+    font-size: 1.2rem;
+  }
+  .signature > a {
+    bottom: 0;
+    height: 2vh;
+    width: 5vw;
+    bottom: 0;
+  }
+  i {
+    bottom: 0;
+    height: 2vh;
+    width: 5vw;
+  }
+  /******↓↓↓SECTION 2↓↓↓******/
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  .infocontain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 15px;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .infocontain > p {
+    color: #fff;
+  }
+  /******↓↓↓LETTRE EXPLODE ANIME↓↓↓******/
+  .explodeContain {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+  }
+  /******↑↑↑LETTRE EXPLODE ANIME↑↑↑******/
+  /******↑↑↑SECTION 2 FIN↑↑↑******/
+  /******↓↓↓SECTION 3↓↓↓******/
+  #S3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    height: auto;
+    width: 100%;
+    background-color: none;
+  }
+  #S3 > h2 {
+    color: #fff;
+  }
+  .dlContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .priceContain {
+    margin: 0;
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: "Yeseva One", cursive;
+    font-size: 1.3rem;
+    line-height: 1.1rem;
+  }
+
+  .template {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .dlFolder a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+  }
+  .dlFolder h3 {
+    font-size: 1.4rem;
+  }
+  .icoContain {
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .screenContain {
+    border: none;
+    height: 15vh;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .screenContain > i {
+    margin-left: auto;
+    margin-right: 15vw;
+  }
+  /******↓↓↓GRID TEMPLATE↓↓↓******/
+  .Gridcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .a {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px #000;
+    color: #fff;
+    height: 50vh;
+    width: 85vw;
+    grid-area: a;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .b {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    background-color: #000;
+    box-shadow: 2px 2px 10px #000;
+    color: #fff;
+    height: 50vh;
+    width: 85vw;
+    grid-area: b;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .c {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    background-color: #000;
+    box-shadow: 2px 2px 10px #000;
+    color: #fff;
+    height: 50vh;
+    width: 85vw;
+    grid-area: c;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .d {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    background-color: #000;
+    box-shadow: 2px 2px 10px #000;
+    color: #fff;
+    height: 50vh;
+    width: 85vw;
+    grid-area: d;
+    padding: 5px;
+    border-radius: 10px;
+  }
+}
