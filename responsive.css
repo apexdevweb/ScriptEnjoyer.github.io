@@ -208,15 +208,17 @@
   .items .imgContain {
     padding: 5px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-evenly;
     align-items: center;
-    height: 80vh;
+    height: 60vh;
     width: auto;
+    box-sizing: border-box;
   }
   .imgContain > img {
     margin-top: 1vh;
-    height: 25vh;
+    height: 20vh;
     width: auto;
     box-shadow: 1px 2px 3px black;
   }
@@ -788,10 +790,11 @@
   .items .imgContain {
     padding: 5px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
     width: auto;
   }
   .imgContain > img {
