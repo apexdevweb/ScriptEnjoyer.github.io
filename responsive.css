@@ -786,17 +786,6 @@
   .items p {
     line-height: 1.5;
   }
-
-  .items .imgContain {
-    padding: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    height: 100vh;
-    width: auto;
-  }
   .imgContain > img {
     margin-top: 1vh;
     height: 25vh;
