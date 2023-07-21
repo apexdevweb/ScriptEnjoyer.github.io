@@ -134,9 +134,26 @@
   }
 
   /******↓↓↓LIENS DE SORTIE ↓↓↓**********/
+
   .sortie {
-    padding: 5px;
-    margin: 0px 500px 0px 0px;
+    padding: 3px;
+    height: 2vh;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+  }
+  .sortie a > i {
+    margin: 0;
+    font-size: 1.3rem;
+  }
+  .sortie > a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.2rem;
   }
   /******↑↑↑LIENS DE SORTIE FIN↑↑↑******/
   /******↓↓↓INDEX DE GARDE↓↓↓**********/
