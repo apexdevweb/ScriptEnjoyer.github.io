@@ -116,7 +116,7 @@ main {
 /******↑↑↑MENU BURGER FIN↑↑↑******/
 /******↓↓↓LIENS DE SORTIE ↓↓↓**********/
 .sortie {
-  padding: 3px;
+  padding-top: 5px;
   height: 2vh;
   width: 99%;
   display: flex;
@@ -126,14 +126,22 @@ main {
   overflow: hidden;
 }
 .sortie a > i {
+  height: auto;
+  width: auto;
   margin: 0;
   font-size: 1.3rem;
 }
 .sortie > a {
+  height: auto;
+  width: auto;
   font-size: 1.3rem;
   text-decoration: none;
   color: #fff;
   letter-spacing: 0.2rem;
+}
+.sortie > a:hover {
+  transform: scale(1.08);
+  transition: 0.2s ease-in-out;
 }
 /******↑↑↑LIENS DE SORTIE FIN↑↑↑******/
 
