@@ -565,7 +565,7 @@ textarea:hover {
 }
 .labelImage {
   top: 0;
-  height: 20vh;
+  height: 25.1vh;
   width: 100%;
   background-color: rgba(36, 145, 172, 0.629);
   border-radius: 10px;
@@ -577,6 +577,22 @@ textarea:hover {
   text-shadow: 2px 2px 5px black;
 }
 .labelImage:hover {
+  display: none;
+}
+.labelImageVid {
+  top: 0;
+  height: 26vh;
+  width: 100%;
+  background-color: rgba(36, 145, 172, 0.629);
+  border-radius: 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}
+.labelImageVid:hover {
   display: none;
 }
 .cadre1 {
@@ -628,11 +644,21 @@ textarea:hover {
 /******↑↑↑SECTION 1 FIN↑↑↑***************/
 /*effetBordureFIN*/
 .projetContenu img {
-  height: 20vh;
+  height: 25.1vh;
   width: 23vw;
   border-radius: 10px;
 }
+
 .projetContenu img:hover {
+  filter: contrast(140%);
+}
+
+.projetContenu video {
+  height: auto;
+  width: 23vw;
+  border-radius: 10px;
+}
+.projetContenu video:hover {
   filter: contrast(140%);
 }
 /******↑↑↑GRID PROJET FIN↑↑↑******/
