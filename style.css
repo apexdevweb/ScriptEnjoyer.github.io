@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@100&family=Yeseva+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -324,11 +325,14 @@ path {
 }
 .ml10 {
   position: relative;
-  font-weight: 900;
   color: #fff;
-  font-family: "Bacasime Antique", serif;
   line-height: 0;
   box-sizing: border-box;
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "BLED" 0, "SCAN" 0;
 }
 
 .ml10 .text-wrapper {
@@ -349,9 +353,6 @@ path {
 }
 
 .ml14 {
-  font-weight: 200;
-  font-size: 3.2rem;
-  font-family: "Bacasime Antique", serif;
   color: #fff;
   box-sizing: border-box;
 }
@@ -381,6 +382,7 @@ path {
   display: inline-block;
   line-height: 1rem;
   box-sizing: border-box;
+  font-family: "Zen Dots";
 }
 /******↑↑↑TITRE ANIME FIN↑↑↑******/
 h2 {

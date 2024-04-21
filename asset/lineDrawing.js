@@ -4,7 +4,7 @@ anime({
   easing: "easeInOutSine",
   duration: 1400,
   delay: function (el, i) {
-    return i * 250;
+    return i * 450;
   },
   direction: "alternate",
   loop: false,
