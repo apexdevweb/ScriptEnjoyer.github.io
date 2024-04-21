@@ -1,5 +1,5 @@
 /******↓↓↓RESPONSIVE SMARTPHONE↓↓↓******/
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 321px) and (max-width: 800px) {
   body {
     padding: 0;
     margin: 0;
@@ -344,7 +344,7 @@
     margin-left: 25vw;
   }
   .separate2 {
-    margin-top: 13vh;
+    margin-top: 20vh;
     height: 0.2vh;
     width: 50vw;
     background-color: #fff;
@@ -383,7 +383,7 @@
   }
   .labelImageVid {
     top: 0;
-    height: 25vh;
+    height: 31vh;
     width: 100%;
     background-color: rgba(36, 145, 172, 0.629);
     border-radius: 10px;
@@ -479,6 +479,16 @@
     width: 100%;
     overflow: hidden;
     box-sizing: border-box;
+  }
+  .infocontain > img {
+    height: auto;
+    width: 200px;
+    object-fit: cover;
+    object-position: 10%;
+    border-radius: 50%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 25px 5px 10px;
   }
 
   .infocontain > p {
