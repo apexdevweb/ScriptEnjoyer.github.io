@@ -14,28 +14,7 @@
     font-weight: 900;
     font-size: 2.1rem;
   }
-  /******************************************LINE DRAWING*****************************************************************/
-  .line-drawing {
-    margin-top: 100px;
-    margin-left: 60%;
-    position: absolute;
-    width: 35vw;
-    height: auto;
-    z-index: -1;
-    overflow: hidden;
-  }
-  svg {
-    width: 100%;
-    height: auto;
-    color: #fff;
-  }
-  path {
-    height: auto;
-    width: 100%;
-    color: #ff1919;
-  }
 
-  /*******************************************LINE DRAWING FIN****************************************************************/
   /******↓↓↓TITRE ANIME↓↓↓******/
   .titleContainer {
     display: flex;

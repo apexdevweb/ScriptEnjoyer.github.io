@@ -288,28 +288,7 @@ span a {
   align-items: flex-start;
   box-sizing: border-box;
 }
-/******************************************LINE DRAWING*****************************************************************/
-.line-drawing {
-  margin-top: 50px;
-  margin-left: 83%;
-  position: absolute;
-  width: 15vw;
-  height: auto;
-  z-index: -1;
-  overflow: hidden;
-}
-svg {
-  width: 100%;
-  height: auto;
-  color: #fff;
-}
-path {
-  height: auto;
-  width: 100%;
-  color: #ff1919;
-}
 
-/*******************************************LINE DRAWING FIN****************************************************************/
 .title-sub-container > h2 {
   line-height: 1rem;
   margin: 0;
@@ -430,7 +409,9 @@ li a:hover {
 .OgltsContainer > h2 {
   color: #fff;
 }
-
+.primaryContain {
+  padding: 5px;
+}
 .primaryContain > a {
   text-decoration: none;
   color: #fff;
