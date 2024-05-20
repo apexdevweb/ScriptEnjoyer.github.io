@@ -644,6 +644,13 @@
     <script src="asset/apprellax.js"></script>
     <!-- ↓↓↓ globe souris -->
     <script src="asset/mousemove.js"></script>
+
+    <script>
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+            alert('Page protégée');
+        }, false);
+    </script>
 </body>
 
 </html>
