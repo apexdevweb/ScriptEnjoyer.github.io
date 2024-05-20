@@ -8,7 +8,7 @@ body {
   box-sizing: border-box;
   font-family: "Pathway Extreme", sans-serif;
   overflow-x: hidden;
-  background: url(image/portrait1.jpg) no-repeat fixed 50% 50%;
+  background-color: #000;
   background-size: cover;
   backdrop-filter: blur(15px);
 }
@@ -63,6 +63,28 @@ main {
   padding: 0;
   box-sizing: border-box;
 }
+/*globe de la souris*/
+.mouse_globe {
+  height: 50px;
+  width: 50px;
+  border: 2px solid red;
+  position: absolute;
+  border-radius: 50px;
+}
+/*globe de la souris fin*/
+.WallPapper {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  z-index: -99;
+  overflow: hidden;
+}
+.WallPapper > pre {
+  height: auto;
+  width: 100%;
+  z-index: -99;
+}
+
 .separate1 {
   margin-top: 0;
   height: 0.2vh;
