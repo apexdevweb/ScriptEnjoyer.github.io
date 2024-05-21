@@ -81,7 +81,7 @@ main {
   margin-top: 0;
   padding: 3px;
   position: absolute;
-  height: 137vh;
+  height: 139vh;
   width: 100%;
   z-index: -99;
   overflow: hidden;
@@ -540,7 +540,7 @@ li a:hover {
 }
 
 .projetContenu {
-  height: 20vh;
+  height: auto;
   width: 23vw;
   display: flex;
   text-align: center;
@@ -628,8 +628,8 @@ li a:hover {
 
 .cadre1:hover::before,
 .cadre1:hover:after {
-  width: 110%;
-  height: 110%;
+  width: 105%;
+  height: 105%;
 }
 
 /******↑↑↑SECTION 1 FIN↑↑↑***************/
