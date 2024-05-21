@@ -10,7 +10,6 @@ body {
   overflow-x: hidden;
   background-color: #000;
   background-size: cover;
-  backdrop-filter: blur(15px);
 }
 
 /***********************************************************************************************************/
@@ -63,6 +62,7 @@ main {
   padding: 0;
   box-sizing: border-box;
 }
+/********************wallpapper text-code******************************/
 /*globe de la souris*/
 .mouse_globe {
   height: 50px;
@@ -73,18 +73,20 @@ main {
 }
 /*globe de la souris fin*/
 .WallPapper {
+  padding: 13px;
   position: absolute;
   height: auto;
   width: 100%;
   z-index: -99;
   overflow: hidden;
+  background: none;
 }
 .WallPapper > pre {
   height: auto;
   width: 100%;
   z-index: -99;
 }
-
+/********************wallpapper text-code FIN******************************/
 .separate1 {
   margin-top: 0;
   height: 0.2vh;

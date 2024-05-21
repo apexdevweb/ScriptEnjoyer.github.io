@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    background: url(image/portrait1.jpg) no-repeat fixed 50% 50%;
+    background-color: #000;
     background-size: cover;
     box-sizing: border-box;
   }
@@ -14,7 +14,25 @@
     font-weight: 900;
     font-size: 2.1rem;
   }
-
+  /********************wallpapper text-code******************************/
+  .WallPapper {
+    padding: 13px;
+    position: absolute;
+    height: 167vh;
+    width: 89vw;
+    z-index: -99;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #fff;
+    border-radius: 10px;
+    transform: translateY(40px);
+  }
+  .WallPapper > pre {
+    transform: translate(-150vw, -90px);
+    height: auto;
+    width: 89vw;
+    z-index: -99;
+  }
+  /********************wallpapper text-code FIN******************************/
   /******↓↓↓TITRE ANIME↓↓↓******/
   .titleContainer {
     display: flex;
