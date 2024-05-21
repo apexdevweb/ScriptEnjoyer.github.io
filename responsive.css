@@ -15,10 +15,13 @@
     font-size: 2.1rem;
   }
   /********************wallpapper text-code******************************/
+  .mouse_globe {
+    display: none;
+  }
   .WallPapper {
     padding: 13px;
     position: absolute;
-    height: 167vh;
+    height: 169vh;
     width: 89vw;
     z-index: -99;
     overflow: hidden;
@@ -27,7 +30,7 @@
     transform: translateY(40px);
   }
   .WallPapper > pre {
-    transform: translate(-150vw, -90px);
+    transform: translate(-150vw, 188px);
     height: auto;
     width: 89vw;
     z-index: -99;

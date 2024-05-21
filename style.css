@@ -65,23 +65,30 @@ main {
 /********************wallpapper text-code******************************/
 /*globe de la souris*/
 .mouse_globe {
-  height: 50px;
-  width: 50px;
-  border: 2px solid red;
-  position: absolute;
-  border-radius: 50px;
+  height: 350px;
+  width: 350px;
+  position: relative;
+  transform: translate(-150px, -650px);
+  border-radius: 150px;
+  filter: blur(25px);
+  background: linear-gradient(135deg, #33cec2 0%, #2276a4 29%, #f10000 100%);
+  mix-blend-mode: difference;
+  z-index: 0;
+  opacity: 0.7;
 }
 /*globe de la souris fin*/
 .WallPapper {
-  padding: 13px;
+  margin-top: 0;
+  padding: 3px;
   position: absolute;
-  height: auto;
+  height: 137vh;
   width: 100%;
   z-index: -99;
   overflow: hidden;
   background: none;
 }
 .WallPapper > pre {
+  margin-top: -35vh;
   height: auto;
   width: 100%;
   z-index: -99;
