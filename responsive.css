@@ -1,5 +1,8 @@
 /******↓↓↓RESPONSIVE SMARTPHONE↓↓↓******/
-@media only screen and (min-width: 321px) and (max-width: 800px) {
+@media only screen and (min-width: 321px) and (max-width: 740px) {
+  html {
+    overflow-x: hidden;
+  }
   body {
     padding: 10px;
     margin: 0;
@@ -216,7 +219,7 @@
   }
   li a {
     left: 0;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 
   .contenu h3 {
@@ -605,4 +608,7 @@
   /******↑↑↑GRID TEMPLATE FIN↑↑↑******/
   /******↑↑↑SECTION 3 FIN↑↑↑******/
   /******↑↑↑RESPONSIVE SMARTPHONE FIN↑↑↑******/
+  /****************LANDSCAPE********************/
+
+  /****************LANDSCAPE  FIN********************/
 }
