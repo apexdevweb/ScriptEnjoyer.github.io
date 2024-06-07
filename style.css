@@ -192,7 +192,7 @@ main {
     width: 0%;
   }
   to {
-    width: 70%;
+    width: 65%;
   }
 }
 
@@ -213,7 +213,7 @@ main {
   font-weight: 800;
   font-size: 6.8em;
   text-transform: uppercase;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.1em;
   color: #fff;
 }
 
@@ -323,13 +323,13 @@ span a {
 .title-sub-container > h2 {
   line-height: 1rem;
   margin: 0;
-  font-size: 10rem;
+  font-size: 7rem;
   box-sizing: border-box;
 }
 .title-sub-container > h4 {
   line-height: 5rem;
   margin: 0;
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: "Bacasime Antique", serif;
   box-sizing: border-box;
 }
@@ -689,11 +689,11 @@ article {
   margin-left: auto;
   margin-right: auto;
   height: 20vh;
-  width: 30vw;
+  width: 50vw;
   display: flex;
   align-items: right;
-  justify-content: right;
-  font-size: 4.5rem;
+  justify-content: center;
+  font-size: 4rem;
 }
 
 .explodeContain > h1 {
@@ -704,6 +704,7 @@ article {
   text-align: center;
   color: #fff;
   text-shadow: 1px 1px 3px #fff;
+  letter-spacing: 3px;
 }
 
 span {

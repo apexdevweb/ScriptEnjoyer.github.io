@@ -65,7 +65,7 @@
   .title-sub-container > h2 {
     line-height: 1rem;
     margin: 0;
-    font-size: 4rem;
+    font-size: 3rem;
     box-sizing: border-box;
   }
   .title-sub-container > h4 {
@@ -197,15 +197,15 @@
     font-size: 1.3rem;
     text-decoration: none;
     color: #fff;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
   }
   /******↑↑↑LIENS DE SORTIE FIN↑↑↑******/
   /******↓↓↓INDEX DE GARDE↓↓↓**********/
   .ml15 {
     font-weight: 800;
-    font-size: 5rem;
+    font-size: 3.2rem;
     text-transform: uppercase;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.3em;
     color: #fff;
     text-align: center;
   }
@@ -467,7 +467,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
   /******↑↑↑LETTRE EXPLODE ANIME↑↑↑******/
   /******↑↑↑SECTION 2 FIN↑↑↑******/
