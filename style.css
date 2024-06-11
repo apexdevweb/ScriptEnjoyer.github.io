@@ -12,7 +12,45 @@ body {
   background-size: cover;
 }
 
-/***********************************************************************************************************/
+/************************************REPEAT ELEMENT*********************************************************/
+/*cube*/
+.cubeContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  height: auto;
+  width: 100%;
+  z-index: 0;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+.cube {
+  position: relative;
+  margin: 0 0 0 0;
+  height: 5vh;
+  width: 5vh;
+  transform-style: preserve-3d;
+  background: url("image/BrandEnjoyer.gif") no-repeat;
+  background-size: 63%;
+  background-attachment: fixed;
+  background-position: 52% 27%;
+}
+
+/*cube fin*/
+/*animation: popAnime 3s ease 0s 1 normal forwards;*/
+@keyframes popAnime {
+  0% {
+    transform: scale(0.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+/************************************REPEAT ELEMENT FIN*****************************************************/
 /***********************************************************************************************************/
 /***********************************************************************************************************/
 /***********************************************************************************************************/
@@ -215,6 +253,7 @@ main {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: #fff;
+  text-shadow: 0px 0px 5px #000;
 }
 
 .ml15 .word {
