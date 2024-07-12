@@ -17,27 +17,6 @@
     font-weight: 900;
     font-size: 2.1rem;
   }
-  /************************************REPEAT ELEMENT*********************************************************/
-  /*cube*/
-  .cubeContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: absolute;
-    height: auto;
-    width: 100%;
-    z-index: 0;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-  }
-  .cube {
-    background: url("image/BrandEnjoyer.gif") no-repeat;
-    background-size: 90%;
-    background-attachment: fixed;
-    background-position: 52% 29%;
-  }
-  /*cube fin*/
-  /************************************REPEAT ELEMENT FIN*****************************************************/
   /********************wallpapper text-code******************************/
   .mouse_globe {
     display: none;
