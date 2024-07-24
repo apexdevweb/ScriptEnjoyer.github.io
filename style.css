@@ -66,7 +66,7 @@ main {
   height: 350px;
   width: 350px;
   position: relative;
-  transform: translate(-150px, -650px);
+  transform: translate(-150px, -750px);
   border-radius: 150px;
   filter: blur(25px);
   background: linear-gradient(135deg, #33cec2 0%, #2276a4 29%, #f10000 100%);
@@ -83,7 +83,9 @@ main {
   width: 100%;
   z-index: -99;
   overflow: hidden;
-  background: none;
+  background: url("image/MainFond.png") no-repeat 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .WallPapper > pre {
   margin-top: -35vh;
