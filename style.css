@@ -396,11 +396,6 @@ span a {
   font-family: "Zen Dots";
 }
 /******↑↑↑TITRE ANIME FIN↑↑↑******/
-h2 {
-  margin-left: 2vw;
-  color: #fff;
-  box-sizing: border-box;
-}
 
 /******↓↓↓BARRE DE NAVIGATION↓↓↓******/
 nav {
@@ -534,11 +529,12 @@ li a:hover {
 /******↑↑↑CONTENU ONGLET FIN↑↑↑******/
 /******↓↓↓GRID PROJET↓↓↓******/
 .container {
+  height: auto;
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #fff;
 }
 
 .projetContenu {
@@ -555,6 +551,20 @@ li a:hover {
 #S1 {
   height: 30vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #000;
+  background-color: none;
+}
+#S1 > h2 {
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.5vw;
+  border-bottom: 1px solid #fff;
+  text-shadow: 0px 0px 5px #000;
+  backdrop-filter: blur(10px);
 }
 .labelImage {
   top: 0;
@@ -726,11 +736,14 @@ span {
   background-color: none;
 }
 #S3 > h2 {
-  text-align: end;
+  text-align: center;
   color: #fff;
-  letter-spacing: 1vw;
+  letter-spacing: 0.5vw;
+  border-bottom: 1px solid #fff;
+  text-shadow: 0px 0px 5px #000;
+  backdrop-filter: blur(10px);
 }
-home.html .dlContainer {
+.dlContainer {
   height: auto;
   width: 100%;
   display: block;
