@@ -1,5 +1,5 @@
 /******↓↓↓RESPONSIVE SMARTPHONE↓↓↓******/
-@media only screen and (min-width: 321px) and (max-width: 740px) {
+@media only screen and (min-width: 320px) and (max-width: 740px) {
   html {
     overflow-x: hidden;
   }
@@ -22,6 +22,7 @@
     display: none;
   }
   .WallPapper {
+    margin: 0;
     padding: 13px;
     position: absolute;
     height: 169vh;
@@ -31,6 +32,8 @@
     box-shadow: 0px 0px 10px #fff;
     border-radius: 10px;
     transform: translateY(40px);
+    background: url("image/ModelFondfolio.png") no-repeat 30% 50%;
+    background-size: cover;
   }
   .WallPapper > pre {
     transform: translate(-150vw, 188px);
@@ -322,14 +325,15 @@
     text-decoration: none;
   }
   .container {
+    margin-top: 0;
+    padding: 5px;
     height: auto;
     width: auto;
     display: flex;
-    margin-top: 0;
-    flex-direction: column;
-    padding: 5px;
+    flex-flow: column wrap;
     align-items: center;
     justify-content: space-evenly;
+    overflow: hidden;
   }
   .labelImage {
     top: 0;
@@ -346,7 +350,7 @@
   }
   .labelImageVid {
     top: 0;
-    height: 25vh;
+    height: 21vh;
     width: 90%;
     background-color: rgba(36, 145, 172, 0.629);
     border-radius: 10px;

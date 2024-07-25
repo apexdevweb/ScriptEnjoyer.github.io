@@ -76,7 +76,7 @@ main {
 }
 /*globe de la souris fin*/
 .WallPapper {
-  margin-top: 0;
+  margin-top: 20px;
   padding: 3px;
   position: absolute;
   height: 139vh;
@@ -85,7 +85,6 @@ main {
   overflow: hidden;
   background: url("image/ModelFondfolio.png") no-repeat 50% 50%;
   background-size: cover;
-  background-attachment: fixed;
 }
 .WallPapper > pre {
   margin-top: -35vh;
@@ -536,9 +535,10 @@ li a:hover {
 /******↓↓↓GRID PROJET↓↓↓******/
 .container {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
+  background-color: #fff;
 }
 
 .projetContenu {
@@ -726,9 +726,11 @@ span {
   background-color: none;
 }
 #S3 > h2 {
+  text-align: end;
   color: #fff;
+  letter-spacing: 1vw;
 }
-.dlContainer {
+home.html .dlContainer {
   height: auto;
   width: 100%;
   display: block;
