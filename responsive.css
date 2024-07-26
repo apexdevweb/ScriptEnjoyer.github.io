@@ -2227,7 +2227,7 @@
     height: 110vh;
   }
   article {
-    margin-top: 3vh;
+    margin-top: 0;
     height: 45vh;
     overflow: hidden;
   }
