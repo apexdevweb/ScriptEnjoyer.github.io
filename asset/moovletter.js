@@ -9,6 +9,7 @@ textWrapper.innerHTML = textWrapper.textContent.replace(
 anime
   .timeline({ loop: false })
   .add({
+    opacity: 1,
     targets: ".ml10 .letter",
     rotateY: [-90, 0],
     duration: 10300,
