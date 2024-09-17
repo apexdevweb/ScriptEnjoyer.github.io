@@ -1,0 +1,170 @@
+:root {
+  font-size: 15px;
+}
+
+/* Page Loader */
+.js .loading::before,
+.js .loading::after {
+  content: "";
+  position: fixed;
+  z-index: 1000;
+}
+
+.js .loading::before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--color-bg);
+}
+
+.js .loading::after {
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  margin: -30px 0 0 -30px;
+  border-radius: 50%;
+  opacity: 0.4;
+  background: var(--color-link);
+  animation: loaderAnim 0.7s linear infinite alternate forwards;
+}
+
+@keyframes loaderAnim {
+  to {
+    opacity: 1;
+    transform: scale3d(0.5, 0.5, 1);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-link);
+  outline: none;
+}
+
+a:hover,
+a:focus {
+  color: var(--color-link-hover);
+  outline: none;
+}
+
+.message {
+  background: var(--color-text);
+  color: var(--color-bg);
+  padding: 1rem;
+  text-align: center;
+}
+.content {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 53em) {
+  .message {
+    display: none;
+  }
+  .content {
+    height: 60vh;
+    justify-content: center;
+  }
+}
+
+/* plugin css */
+.rgbKineticSlider {
+  display: block;
+  visibility: hidden;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 60vh;
+  opacity: 1;
+  animation: slideAnime 5s forwards;
+  animation-delay: 1s;
+}
+@keyframes slideAnime {
+  from {
+    display: none;
+    transition: 1s ease-in-out;
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+canvas {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+}
+
+#navSlide > a {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  /*margin-right: 14px;*/
+  position: absolute;
+  top: 30vh;
+  z-index: 1;
+}
+
+#navSlide > a:hover,
+#navSlide > a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#navSlide > span {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-link-hover);
+  display: block;
+  margin-top: 7px;
+  -moz-transition: width 0.3s ease;
+  -webkit-transition: width 0.3s ease;
+  transition: width 0.3s ease;
+}
+
+#navSlide > a:hover span {
+  width: 0;
+}
+
+#navSlide > a.next {
+  right: 10vw;
+}
+
+#navSlide > a.prev {
+  left: 10vw;
+}
+
+.notice {
+  text-decoration: none;
+  /*margin-right: 14px;*/
+  position: absolute;
+  bottom: 3rem;
+  left: 3rem;
+  z-index: 1;
+  color: var(--color-link);
+}
+
+@media screen and (max-width: 53em) {
+  #navSlide > a {
+    top: auto;
+    bottom: 3rem;
+  }
+  .notice {
+    bottom: auto;
+    top: 2rem;
+    left: 10vw;
+    left: 3rem;
+  }
+}
