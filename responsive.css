@@ -1,5 +1,5 @@
 /******↓↓↓RESPONSIVE SMARTPHONE↓↓↓******/
-@media only screen and (min-width: 320px) and (max-width: 745px) {
+@media only screen and (max-width: 767px) {
   html {
     overflow-x: hidden;
   }
@@ -239,60 +239,6 @@
   hr {
     width: 75vw;
   }
-  /******↓↓↓CONTENU ONGLET↓↓↓******/
-
-  .items {
-    box-sizing: border-box;
-  }
-  .items p {
-    line-height: 1.5;
-  }
-
-  .items .skillContain {
-    padding: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 60vh;
-    width: auto;
-    box-sizing: border-box;
-  }
-  .skillContain > .skillName > h3 {
-    font-size: 1.7rem;
-    text-shadow: 1px 2px 3px black;
-    font-family: "arial";
-  }
-  .skillContain > .skillName > h3 > span {
-    color: #ff1919;
-    font-family: "Zen Dots";
-  }
-  .skillName {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  .skillName > i {
-    text-shadow: 1px 2px 3px black;
-    margin: 0 0 0 5px;
-    font-size: 1.7rem;
-  }
-  .onglet0 {
-    height: 30vh;
-  }
-  .service0 {
-    display: block;
-  }
-  .service1,
-  .service2,
-  .service3 {
-    font-size: 1.2rem;
-    padding: 5px;
-    display: block;
-  }
-  /******↑↑↑CONTENU ONGLET FIN↑↑↑******/
 
   .activeContenu {
     height: 105vh;
@@ -1832,7 +1778,7 @@
 }
 /******↑↑↑RESPONSIVE SMARTPHONE FIN↑↑↑******/
 /**********RESPONSIVE TABLETTE***********************************************************************************************************************************/
-@media only screen and (min-width: 768px) and (max-width: 780px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   html {
     overflow-x: hidden;
   }
