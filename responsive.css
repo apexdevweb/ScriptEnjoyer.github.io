@@ -132,41 +132,49 @@
   }
   /******************************************PRIMARY-CONTAINER ET STAGGERING FIN******************************/
   .lineContainer {
+    padding: 0;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-flow: column nowrap;
+    justify-content: stretch;
     align-items: center;
-    height: 8vh;
+    height: 20vh;
     width: 80vw;
+    overflow: hidden;
   }
   .lineDecoA {
+    top: 0;
+    margin: 0;
     height: 5px;
     width: 65vw;
     border-radius: 20px;
     background-color: #fff;
   }
   .lineDecoB {
+    margin-top: -5%;
     height: 5px;
     width: 50vw;
     border-radius: 20px;
     background-color: #fff;
   }
   .lineDecoC {
+    margin-top: -5%;
     height: 5px;
     width: 35vw;
     border-radius: 20px;
     background-color: #fff;
   }
   .lineDecoD {
+    margin-top: -5%;
     height: 5px;
     width: 20vw;
     border-radius: 20px;
     background-color: #fff;
   }
   .lineDecoE {
+    margin-top: -5%;
     height: 5px;
     width: 5vw;
     border-radius: 20px;
@@ -174,7 +182,6 @@
   }
 
   /******↓↓↓LIENS DE SORTIE ↓↓↓**********/
-
   .sortie {
     margin-top: 0;
     padding: 3px;
@@ -345,8 +352,13 @@
     text-shadow: 1px 2px 2px black;
   }
   /******↓↓↓FOOTER↓↓↓******/
+  footer {
+    height: auto;
+    width: 100%;
+  }
   .bannerFooter {
-    background-size: 30%;
+    display: flex;
+    flex-flow: row nowrap;
     height: auto;
     width: 100%;
   }
@@ -354,9 +366,9 @@
     height: auto;
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-flow: column nowrap;
     justify-content: space-evenly;
-    align-items: flex-start;
+    align-items: center;
     padding: 5px;
     color: #000;
     font-size: 1.2rem;
@@ -371,6 +383,16 @@
     bottom: 0;
     height: 2vh;
     width: 5vw;
+  }
+  .myLinks {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
   }
   /******↓↓↓SECTION 2↓↓↓******/
   article {
@@ -427,7 +449,7 @@
   /******↓↓↓SECTION 3↓↓↓******/
   #S3 {
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     color: #000;
@@ -478,21 +500,48 @@
     font-size: 1.4rem;
   }
   .icoContain {
-    height: 55vh;
+    height: auto;
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
   }
   .screenContain {
     border: none;
-    height: 15vh;
+    height: auto;
     width: 99%;
     display: flex;
-    flex-direction: row;
+    flex-flow: column nowrap;
     justify-content: space-evenly;
     align-items: center;
     box-sizing: border-box;
+  }
+  .screenContain > figure {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+  }
+  .screenContain > figure > img {
+    height: 20vh;
+    width: 45vw;
+  }
+  .screenContain > figure > figcaption {
+    padding: 3px;
+    height: 20vh;
+    width: 35vw;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.3rem;
+  }
+  .screenContain > figure > figcaption > h5 {
+    margin-top: 0;
+    letter-spacing: 3px;
+    text-decoration: underline;
   }
   /******↓↓↓GRID TEMPLATE↓↓↓******/
   .Gridcontainer {
