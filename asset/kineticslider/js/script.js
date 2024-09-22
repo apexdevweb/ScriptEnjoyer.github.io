@@ -1,8 +1,8 @@
 // images setup
 const images = [
-  "asset/kineticslider/img/coding.jpg",
-  "asset/kineticslider/img/codepapper2.jpg",
-  "asset/kineticslider/img/codepapper.jpg",
+  "asset/kineticslider/img/codingpapper1.jpg",
+  "asset/kineticslider/img/codingpapper2.jpg",
+  "asset/kineticslider/img/codingpapper3.jpg",
 ];
 
 // content setup
@@ -54,7 +54,7 @@ rgbKineticSlider = new rgbKineticSlider({
   mobileTextTitleSize: 90, // title size
   textTitleLetterspacing: 3, // title letterspacing
 
-  textSubTitleColor: "white", // subtitle color ex : 0x000000
+  textSubTitleColor: "#fff", // subtitle color ex : 0x000000
   textSubTitleSize: 31, // subtitle size
   mobileTextSubTitleSize: 41, // mobile subtitle size
   textSubTitleLetterspacing: 2, // subtitle letter spacing
