@@ -792,7 +792,7 @@ span {
 /******↑↑↑SECTION 3 FIN↑↑↑*************************/
 /******↓↓↓FOOTER↓↓↓******/
 footer {
-  position: fixed;
+  position: relative;
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;

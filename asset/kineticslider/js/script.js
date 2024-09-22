@@ -51,13 +51,13 @@ rgbKineticSlider = new rgbKineticSlider({
 
   textTitleColor: "#fff", // title color
   textTitleSize: 95, // title size
-  mobileTextTitleSize: 125, // title size
+  mobileTextTitleSize: 90, // title size
   textTitleLetterspacing: 3, // title letterspacing
 
   textSubTitleColor: "white", // subtitle color ex : 0x000000
   textSubTitleSize: 31, // subtitle size
-  mobileTextSubTitleSize: 21, // mobile subtitle size
+  mobileTextSubTitleSize: 41, // mobile subtitle size
   textSubTitleLetterspacing: 2, // subtitle letter spacing
   textSubTitleOffsetTop: 165, // subtitle offset top
-  mobileTextSubTitleOffsetTop: 90, // mobile subtitle offset top
+  mobileTextSubTitleOffsetTop: 185, // mobile subtitle offset top
 });

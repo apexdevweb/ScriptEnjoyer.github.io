@@ -100,6 +100,7 @@ a:focus {
 }
 
 canvas {
+  font-size: 1.5rem;
   position: absolute;
   display: block;
   top: 0;
@@ -166,5 +167,14 @@ canvas {
     top: 2rem;
     left: 10vw;
     left: 3rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  canvas {
+    font-size: 1rem;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
   }
 }
