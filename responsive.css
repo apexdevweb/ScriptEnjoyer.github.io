@@ -513,7 +513,6 @@
     justify-content: space-evenly;
     align-items: flex-start;
     box-sizing: border-box;
-    background-color: red;
     overflow: hidden;
   }
   .screenContain > figure {
@@ -526,7 +525,6 @@
     height: auto;
     width: 100%;
     overflow: hidden;
-    background-color: aqua;
   }
   .screenContain > figure > img {
     height: 20vh;
