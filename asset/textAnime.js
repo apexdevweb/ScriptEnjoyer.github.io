@@ -14,7 +14,7 @@ gsap.from(textA, {
     trigger: ".textTwo",
     start: "top top",
     end: "bottom bottom",
-    markers: true,
+    //markers: true,
     scrub: 4,
   },
 });
