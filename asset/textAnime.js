@@ -4,7 +4,7 @@ gsap.from(textA, {
   //y: 50,
   //x: 50,
   //z: 50,
-  scale: 20,
+  scale: 10,
   duration: 1,
   //rotation: 90,
   opacity: 0,
@@ -12,9 +12,9 @@ gsap.from(textA, {
   ease: "power2.inOut",
   scrollTrigger: {
     trigger: ".textTwo",
-    start: "top 40%",
-    end: "bottom 80%",
-    //markers: true,
+    start: "top top",
+    end: "bottom bottom",
+    markers: true,
     scrub: 4,
   },
 });
