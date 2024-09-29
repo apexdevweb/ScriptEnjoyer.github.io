@@ -315,19 +315,7 @@
     font-size: 1rem;
     backdrop-filter: none;
   }
-  article {
-    margin-top: 3vh;
-    height: 45vh;
-    overflow: hidden;
-  }
-  article > img {
-    height: 150px;
-    width: 150px;
-  }
 
-  article > p {
-    text-shadow: 1px 2px 2px black;
-  }
   /******↓↓↓FOOTER↓↓↓******/
   footer {
     position: relative;
@@ -375,9 +363,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    height: auto;
     width: 100%;
     overflow: hidden;
+  }
+  article > img {
+    height: 150px;
+    width: 150px;
+  }
+
+  article > p {
+    text-shadow: 1px 2px 2px black;
   }
   .infocontain {
     display: flex;

@@ -18,6 +18,12 @@ body {
     rgba(0, 0, 0, 0.845) 50%,
     #000000 100%
   );
+  --infoGradient: linear-gradient(
+    135deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0.845) 60%,
+    #ffffff00 100%
+  );
 }
 /***********************************************************************************************************/
 /***********************************************************************************************************/
@@ -33,21 +39,6 @@ body {
   width: 100%;
   box-sizing: border-box;
   overflow: hidden;
-}
-.stagContainer {
-  position: absolute;
-  height: auto;
-  width: 100%;
-  box-sizing: border-box;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  z-index: -10;
-}
-.square {
-  height: 8vh;
-  width: 100%;
-  background-color: rgba(36, 145, 172, 0.413);
 }
 /******************************************PRIMARY-CONTAINER ET STAGGERING FIN******************************/
 /***********************************************************************************************************/
@@ -87,19 +78,14 @@ main {
   margin-top: 20px;
   padding: 3px;
   position: absolute;
-  height: 139vh;
+  height: 198vh;
   width: 100%;
   z-index: -99;
   overflow: hidden;
   background: url("image/ModelFondfolio.png") no-repeat 50% 50%;
   background-size: cover;
 }
-.WallPapper > pre {
-  margin-top: -35vh;
-  height: auto;
-  width: 100%;
-  z-index: -99;
-}
+
 /********************wallpapper text-code FIN******************************/
 .separate1 {
   margin-top: 0;
@@ -583,10 +569,10 @@ li a:hover {
 /******↓↓↓SECTION 2↓↓↓******/
 article {
   display: flex;
-  flex-direction: row;
+  flex-flow: row nowrap;
   align-items: center;
   justify-content: space-evenly;
-  height: 30vh;
+  height: auto;
   width: 100%;
   overflow: hidden;
 }
@@ -604,7 +590,22 @@ article {
   shape-outside: margin-box;
   margin: 0 25px 5px 10px;
 }
+.infocontain > h3 {
+  text-align: center;
+  color: #fff;
+  font-family: "Pathway Extreme", sans-serif;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  letter-spacing: 5px;
+}
+.infocontain > span {
+  font-family: "Yeseva One", cursive;
+  font-size: 2.8rem;
+  line-height: 2.3rem;
+}
+
 .infocontain > p {
+  padding: 10px;
   color: #fff;
   font-family: "Yeseva One", cursive;
   font-size: 1.8rem;
@@ -677,8 +678,10 @@ span {
   padding: 0;
   margin: 0;
   color: #fff;
-  font-family: "Yeseva One", cursive;
+  font-family: "Pathway Extreme", sans-serif;
+  font-weight: 600;
   font-size: 1.4rem;
+  letter-spacing: 3px;
 }
 
 .icoContain {

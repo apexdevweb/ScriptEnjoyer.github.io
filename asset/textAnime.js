@@ -12,8 +12,8 @@ gsap.from(textA, {
   ease: "power2.inOut",
   scrollTrigger: {
     trigger: ".textTwo",
-    start: "top top",
-    end: "bottom bottom",
+    start: "top top%",
+    end: "75% bottom",
     //markers: true,
     scrub: 4,
   },

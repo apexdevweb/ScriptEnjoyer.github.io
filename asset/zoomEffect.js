@@ -10,8 +10,8 @@ gsap.from(".infocontain img", {
   ease: "power2.inOut", // Easing pour un effet smooth
   scrollTrigger: {
     trigger: "#primaryContainer",
-    start: "top top%",
-    end: "bottom bottom",
+    start: "40% 40%",
+    end: "65% bottom",
     scrub: 3, // Animation plus réactive
     pin: true,
     anticipatePin: 1, // Évite les sauts lors de l'épinglage
