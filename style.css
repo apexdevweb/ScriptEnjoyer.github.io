@@ -590,13 +590,17 @@ article {
   shape-outside: margin-box;
   margin: 0 25px 5px 10px;
 }
-.infocontain > h3 {
-  text-align: center;
+.infocontain > h2 {
+  margin-left: 5vw;
+  height: auto;
+  width: 9vw;
   color: #fff;
   font-family: "Pathway Extreme", sans-serif;
-  font-size: 1.8rem;
-  line-height: 2.3rem;
-  letter-spacing: 5px;
+  letter-spacing: 0.5vw;
+  border-bottom: 1px solid #fff;
+  text-shadow: 0px 0px 5px #000;
+  backdrop-filter: blur(10px);
+  text-align: center;
 }
 .infocontain > span {
   font-family: "Yeseva One", cursive;
