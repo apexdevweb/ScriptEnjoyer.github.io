@@ -397,8 +397,20 @@
     shape-outside: margin-box;
     margin: 0 25px 5px 10px;
   }
+  .infocontain > h2 {
+    height: auto;
+    width: 100%;
+    color: #fff;
+    font-family: "Pathway Extreme", sans-serif;
+    letter-spacing: 0.5vw;
+    border-bottom: 1px solid #fff;
+    text-shadow: 0px 0px 5px #000;
+    backdrop-filter: blur(10px);
+    text-align: center;
+  }
 
   .infocontain > p {
+    margin-top: 10vh;
     font-size: 1.4rem;
     color: #fff;
   }
