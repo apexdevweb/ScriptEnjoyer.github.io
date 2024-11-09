@@ -22,10 +22,11 @@
     display: none;
   }
   .WallPapper {
+    position: fixed;
     margin: 0;
     padding: 13px;
     position: absolute;
-    height: 169vh;
+    height: 175vh;
     width: 89vw;
     z-index: -99;
     overflow: hidden;
@@ -251,6 +252,24 @@
     padding: 5px;
     text-decoration: none;
   }
+  .cadre1:before {
+    top: -1.5vh;
+    left: -1vw;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+  }
+
+  .cadre1:after {
+    bottom: 1.5vh;
+    right: 0.5vw;
+    border-top-color: transparent;
+    border-left-color: transparent;
+  }
+  .cadre1:hover::before,
+  .cadre1:hover:after {
+    width: 90%;
+    height: 90%;
+  }
   .container {
     margin-top: 0;
     padding: 5px;
@@ -276,7 +295,7 @@
   }
   .labelImageVid {
     top: 0;
-    height: 97%;
+    height: 86%;
     width: 90%;
     background-color: rgba(36, 145, 172, 0.629);
     border-radius: 10px;
@@ -301,6 +320,9 @@
     height: auto;
     width: 90%;
     border-radius: 10px;
+  }
+  .projetContenu a {
+    visibility: hidden;
   }
 
   .projetContenu video:hover {
@@ -699,7 +721,7 @@
     margin-right: auto;
     padding: 13px;
     position: absolute;
-    height: 125vh;
+    height: 130vh;
     width: 100%;
     z-index: -99;
     overflow: hidden;
@@ -711,22 +733,22 @@
   }
   /*projet demo*/
   .cadre1:before {
-    top: -1vh;
-    left: 5vw;
+    top: -2vh;
+    left: 8vw;
     border-bottom-color: transparent;
     border-right-color: transparent;
   }
 
   .cadre1:after {
-    bottom: -0.5vh;
-    right: 5vw;
+    bottom: -1vh;
+    right: 8vw;
     border-top-color: transparent;
     border-left-color: transparent;
   }
   .cadre1:hover::before,
   .cadre1:hover:after {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
   }
   .container {
     margin-left: auto;
@@ -754,7 +776,7 @@
   }
   .labelImageVid {
     top: 0;
-    height: 97%;
+    height: 96%;
     width: 60%;
     background-color: rgba(36, 145, 172, 0.629);
     border-radius: 10px;
@@ -768,8 +790,8 @@
   .projetContenu {
     display: block;
     margin-top: 0;
-    height: 20vh;
-    width: 40%;
+    height: auto;
+    width: 50%;
   }
   .projetContenu img {
     height: 15vh;
@@ -779,6 +801,9 @@
     height: auto;
     width: 60%;
     border-radius: 10px;
+  }
+  .projetContenu a {
+    visibility: hidden;
   }
   /*projet demo fin*/
   .separate2 {
