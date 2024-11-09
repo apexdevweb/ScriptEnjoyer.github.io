@@ -25,6 +25,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="modal.css">
     <link rel="stylesheet" href="asset/kineticslider/css/kinetic.css" />
     <link rel="icon" type="image/x-icon" href="image/apex.png" />
     <title>Script'Enjøyer</title>
@@ -77,52 +78,55 @@
             <br />
             <div class="container">
                 <!-- ↓↓↓ encadrement animé: classe="cadre1" ↓↓↓ -->
-                <div class="projetContenu">
+                <div class="projetContenu" id="prjctA">
                     <div class="cadre1">
-                        <a href="#">
-                            <label for="apercu" class="labelImageVid">Showcase</label>
-                            <video src="image/AGdemo.mp4" autoplay loop muted type="video/mp4"></video>
-                        </a>
+                        <label for="apercu" class="labelImageVid">Showcase</label>
+                        <video id="myVid" src="image/AGdemo.mp4" autoplay loop muted type="video/mp4"></video>
+                        <a href="#" id="lienVid">Asia garden</a>
                     </div>
                 </div>
-                <div class="projetContenu">
+                <div class="projetContenu" id="prjctB">
                     <div class="cadre1">
-                        <a href="#">
-                            <label for="apercu" class="labelImageVid">Food</label>
-                            <video src="image/TSdemo.mp4" autoplay loop muted type="video/mp4"></video>
-                        </a>
+                        <label for="apercu" class="labelImageVid">Food</label>
+                        <video id="myVid" src="image/TSdemo.mp4" autoplay loop muted type="video/mp4"></video>
+                        <a href="#" id="lienVid">La table de solline</a>
                     </div>
                 </div>
-                <div class="projetContenu">
+                <div class="projetContenu" id="prjctC">
                     <div class="cadre1">
-                        <a href="#">
-                            <label for="apercu" class="labelImage">E-commerce</label>
-                            <img src="image/ridersmarket.JPG" name="aperçu" />
-                        </a>
+                        <label for="apercu" class="labelImage">E-commerce</label>
+                        <img src="image/ridersmarket.JPG" name="aperçu" />
+                        <a href="#" id="lienVid">Easy clothing</a>
                     </div>
                 </div>
                 <br />
-                <div class="projetContenu">
+                <div class="projetContenu" id="prjctD">
                     <div class="cadre1">
-                        <a href="#">
-                            <label for="apercu" class="labelImageVid">Online-platform</label>
-                            <video src="image/cfmrsdemo.mp4" autoplay loop muted type="video/mp4"></video>
-                        </a>
+                        <label for="apercu" class="labelImageVid">Online-platform</label>
+                        <video id="myVid" src="image/cfmrsdemo.mp4" autoplay loop muted type="video/mp4"></video>
+                        <a href="#" id="lienVid">Code farmers</a>
                     </div>
                 </div>
             </div>
+            <!-- ↓modal vidéo↓ -->
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <video class="modal-content" id="Vid01" autoplay loop muted type="video/mp4"></video>
+                <a href="#" id="caption"></a>
+            </div>
         </section>
-        <br />
-        <br />
-        <br />
-        <br />
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="separate2"></div>
-        <br />
-        <br />
+        <br>
+        <br>
         <article>
             <div class="infocontain">
                 <img src="image/Fichier 1hdpi.png" alt="portrait" />
-                <br />
+                <br>
                 <p class="textInfo">
                     scriptenjoyer@gmail.com<br />
                     Hiroux jeremy <br />
@@ -130,9 +134,8 @@
                     Developpement web Fullstack<br />
                 </p>
                 <h2>About...</h2>
-
-                <p data-splitting style="  line-height: 50px;
-                letter-spacing: 2px;">I am a web developer, specializing in creating
+                <p data-splitting style="line-height: 50px;
+                letter-spacing: 2px; width:100%;">I am a web developer, specializing in creating
                     websites
                     and applications
                     for various
@@ -258,7 +261,7 @@
     <!-- ↓↓↓ globe souris -->
     <script src="asset/mousemove.js"></script>
     <!-- ↓↓↓ empêche le clic-droit -->
-    <script src="asset/clicprotec.js"></script>
+    <!-- <script src="asset/clicprotec.js"></script> -->
     <!-- ↓↓↓lenisScroll↓↓↓ -->
     <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
     <!-- ↓↓↓GSAP↓↓↓ -->
@@ -271,6 +274,8 @@
     <script src="asset/textAnime.js"></script>
     <script src="asset/zoomEffect.js"></script>
     <script src="asset/translateEffect.js"></script>
+    <!-- ↓↓↓Modal JS↓↓↓ -->
+    <script src="asset/modal.js"></script>
 </body>
 
 </html>

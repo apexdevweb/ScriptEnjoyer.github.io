@@ -1,5 +1,4 @@
 let selection = Splitting();
-// use a script tag or an external JS file
 if (window.matchMedia("(min-width: 1024px)").matches) {
   document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger);
@@ -17,6 +16,28 @@ if (window.matchMedia("(min-width: 1024px)").matches) {
         start: "50% 50%",
         end: "90% 90%",
         //markers: true,
+        scrub: true,
+      },
+    });
+  });
+}
+if (window.matchMedia("(min-width: 768px)").matches) {
+  document.addEventListener("DOMContentLoaded", (event) => {
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.from(selection[0].chars, {
+      //y: 50,
+      x: 50,
+      //z: 50,
+      duration: 5,
+      rotation: 15,
+      opacity: 0,
+      stagger: 0.05,
+      //stagger: 0.05,
+      scrollTrigger: {
+        trigger: "",
+        start: "40% 50%",
+        end: "70% 100%",
+        // markers: true,
         scrub: true,
       },
     });

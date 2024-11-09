@@ -3,13 +3,13 @@ const carte = document.querySelectorAll(".projetContenu");
 carte.forEach((cartes) => {
   gsap.from(cartes, {
     //y: 50,
-    x: -450,
+    x: -550,
     //z: 50,
     scale: 0,
-    duration: 15,
+    duration: 10,
     rotation: 90,
     opacity: 0,
-    stagger: 0.5,
+    stagger: 0.2,
     ease: "power2.inOut",
     scrollTrigger: {
       trigger: ".projetContenu",

@@ -78,7 +78,7 @@ main {
   margin-top: 20px;
   padding: 3px;
   position: absolute;
-  height: 198vh;
+  height: 200vh;
   width: 100%;
   z-index: -99;
   overflow: hidden;
@@ -484,7 +484,7 @@ li a:hover {
 }
 .labelImageVid {
   top: 0;
-  height: 98%;
+  height: 91%;
   width: 100%;
   background-color: rgba(36, 145, 172, 0.629);
   border-radius: 10px;
@@ -518,7 +518,7 @@ li a:hover {
 }
 
 .cadre1:after {
-  bottom: -0.5vh;
+  bottom: 0.7vh;
   right: -0.5vw;
   border-top-color: transparent;
   border-left-color: transparent;
@@ -563,6 +563,7 @@ li a:hover {
 }
 .projetContenu video:hover {
   filter: contrast(140%);
+  cursor: pointer;
 }
 /******↑↑↑GRID PROJET FIN↑↑↑******/
 
