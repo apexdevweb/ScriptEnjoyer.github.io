@@ -428,24 +428,7 @@ li a:hover {
 
 /******↑↑↑CONTENU ONGLET FIN↑↑↑******/
 /******↓↓↓GRID PROJET↓↓↓******/
-.container {
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-items: center;
-}
 
-.projetContenu {
-  height: auto;
-  width: 23vw;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-}
 /*↓effetBordure↓*/
 /******↓↓↓SECTION 1↓↓↓*******************/
 #S1 {
@@ -468,7 +451,7 @@ li a:hover {
 }
 .labelImage {
   top: 0;
-  height: 25.1vh;
+  height: 100%;
   width: 100%;
   background-color: rgba(36, 145, 172, 0.629);
   border-radius: 10px;
@@ -484,7 +467,7 @@ li a:hover {
 }
 .labelImageVid {
   top: 0;
-  height: 91%;
+  height: 100%;
   width: 100%;
   background-color: rgba(36, 145, 172, 0.629);
   border-radius: 10px;
@@ -518,7 +501,7 @@ li a:hover {
 }
 
 .cadre1:after {
-  bottom: 0.7vh;
+  bottom: -0.5vh;
   right: -0.5vw;
   border-top-color: transparent;
   border-left-color: transparent;
@@ -546,9 +529,29 @@ li a:hover {
 
 /******↑↑↑SECTION 1 FIN↑↑↑***************/
 /*effetBordureFIN*/
+.container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.projetContenu {
+  padding-left: 25px;
+  height: auto;
+  width: 20vw;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
 .projetContenu img {
-  height: 25.1vh;
-  width: 23vw;
+  height: auto;
+  width: 18vw;
   border-radius: 10px;
 }
 
@@ -558,12 +561,15 @@ li a:hover {
 
 .projetContenu video {
   height: auto;
-  width: 23vw;
+  width: 18vw;
   border-radius: 10px;
 }
 .projetContenu video:hover {
   filter: contrast(140%);
   cursor: pointer;
+}
+.container a {
+  visibility: hidden;
 }
 /******↑↑↑GRID PROJET FIN↑↑↑******/
 

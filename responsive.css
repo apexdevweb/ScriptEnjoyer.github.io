@@ -26,7 +26,7 @@
     margin: 0;
     padding: 13px;
     position: absolute;
-    height: 175vh;
+    height: 160vh;
     width: 89vw;
     z-index: -99;
     overflow: hidden;
@@ -254,13 +254,13 @@
   }
   .cadre1:before {
     top: -1.5vh;
-    left: -1vw;
+    left: -0.5vw;
     border-bottom-color: transparent;
     border-right-color: transparent;
   }
 
   .cadre1:after {
-    bottom: 1.5vh;
+    bottom: -0.7vh;
     right: 0.5vw;
     border-top-color: transparent;
     border-left-color: transparent;
@@ -282,7 +282,7 @@
   }
   .labelImage {
     top: 0;
-    height: 20vh;
+    height: 100%;
     width: 90%;
     background-color: rgba(36, 145, 172, 0.629);
     border-radius: 10px;
@@ -295,7 +295,7 @@
   }
   .labelImageVid {
     top: 0;
-    height: 86%;
+    height: 100%;
     width: 90%;
     background-color: rgba(36, 145, 172, 0.629);
     border-radius: 10px;
@@ -734,14 +734,14 @@
   /*projet demo*/
   .cadre1:before {
     top: -2vh;
-    left: 8vw;
+    left: -1vw;
     border-bottom-color: transparent;
     border-right-color: transparent;
   }
 
   .cadre1:after {
     bottom: -1vh;
-    right: 8vw;
+    right: -1vw;
     border-top-color: transparent;
     border-left-color: transparent;
   }
@@ -753,7 +753,7 @@
   .container {
     margin-left: auto;
     margin-right: auto;
-    padding: 5px;
+    padding-left: 20px;
     height: auto;
     width: 100vw;
     display: flex;
@@ -763,8 +763,8 @@
   }
   .labelImage {
     top: 0;
-    height: 97%;
-    width: 60%;
+    height: 100%;
+    width: 100%;
     background-color: rgba(36, 145, 172, 0.629);
     border-radius: 10px;
     font-size: 1.5rem;
@@ -776,8 +776,8 @@
   }
   .labelImageVid {
     top: 0;
-    height: 96%;
-    width: 60%;
+    height: 100%;
+    width: 100%;
     background-color: rgba(36, 145, 172, 0.629);
     border-radius: 10px;
     font-size: 1.5rem;
@@ -791,15 +791,16 @@
     display: block;
     margin-top: 0;
     height: auto;
-    width: 50%;
+    width: 32%;
+    overflow: visible;
   }
   .projetContenu img {
-    height: 15vh;
-    width: 60%;
+    height: auto;
+    width: 100%;
   }
   .projetContenu video {
     height: auto;
-    width: 60%;
+    width: 100%;
     border-radius: 10px;
   }
   .projetContenu a {
