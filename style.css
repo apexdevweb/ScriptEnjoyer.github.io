@@ -102,41 +102,6 @@ main {
   border-radius: 10px;
   margin-left: 25vw;
 }
-/******↓↓↓MENU BURGER ↓↓↓**********/
-.burgerContainer {
-  display: none;
-  cursor: pointer;
-  height: auto;
-  width: auto;
-  box-sizing: border-box;
-}
-
-.bar1,
-.bar2,
-.bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: #fff;
-  margin: 6px 0;
-  transition: 0.4s;
-  right: 0;
-}
-
-/* Rotate first bar */
-.change .bar1 {
-  transform: translate(0, 11px) rotate(-45deg);
-}
-
-/* Fade out the second bar */
-.change .bar2 {
-  opacity: 0;
-}
-
-/* Rotate last bar */
-.change .bar3 {
-  transform: translate(0, -11px) rotate(45deg);
-}
-/******↑↑↑MENU BURGER FIN↑↑↑******/
 /******↓↓↓LIENS DE SORTIE ↓↓↓**********/
 .sortie {
   padding-top: 5px;
@@ -419,16 +384,8 @@ li a:hover {
   cursor: pointer;
 }
 /******↑↑↑BARRE DE NAVIGATION FIN↑↑↑******/
-/******↓↓↓SYSTEM ONGLET↓↓↓******/
-
-/******↑↑↑SYSTEM ONGLET FIN↑↑↑******/
-/******↓↓↓CONTENU ONGLET↓↓↓******/
-
-/******↑↑↑CONTENU ONGLET FIN↑↑↑******/
-
-/******↑↑↑CONTENU ONGLET FIN↑↑↑******/
-/******↓↓↓GRID PROJET↓↓↓******/
-
+/******↓↓↓MODAL LOGO↓↓↓******/
+/******↑↑↑MODAL LOGO FIN↑↑↑******/
 /*↓effetBordure↓*/
 /******↓↓↓SECTION 1↓↓↓*******************/
 #S1 {
@@ -831,12 +788,28 @@ footer {
   padding: 5px;
   line-height: 0px;
   height: auto;
-  width: 100%;
+  width: 30vw;
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
   justify-content: center;
   color: #000;
+}
+#Logo_foot {
+  margin: 0;
+  padding: 0;
+  display: block;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+#Logo_foot > img {
+  height: 9vh;
+  width: 14vw;
+}
+#Logo_foot > img:hover {
+  transition: all 0.3s ease-in-out;
+  mix-blend-mode: color-dodge;
 }
 .signature > p {
   margin-top: 0;

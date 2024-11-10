@@ -91,24 +91,6 @@
   }
 
   /******↑↑↑TITRE ANIME FIN↑↑↑******/
-  /******↓↓↓MENU BURGER ↓↓↓**********/
-  .burgerContainer {
-    margin: 10px 5px 2px 2px;
-    display: block;
-    box-sizing: border-box;
-  }
-  .show {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    border: 1px solid #fff;
-    border-radius: 10px;
-    animation: slideIn 0.3s forwards ease-in-out;
-    box-sizing: border-box;
-  }
-  /******↑↑↑MENU BURGER FIN↑↑↑******/
   .lineContainer {
     padding: 0;
     margin-top: 0;
@@ -362,11 +344,32 @@
     align-items: flex-start;
     text-align: left;
     color: #000;
-    font-size: 1rem;
+  }
+  #Logo_foot {
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+  }
+  #Logo_foot > img {
+    height: 9vh;
+    width: 100%;
+  }
+  #Logo_foot > img:hover {
+    mix-blend-mode: normal;
   }
   .signature > h5 {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
+  .signature > p {
+    margin-top: 0;
+    margin-left: 1vw;
+    color: #fff;
+    font-size: 0.8rem;
+  }
+
   i {
     bottom: 0;
     height: 2vh;
@@ -994,6 +997,40 @@
     width: 5vw;
     border-radius: 20px;
     background-color: #fff;
+  }
+  .signature {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: left;
+    color: #000;
+  }
+  .signature > h5 {
+    font-size: 0.7rem;
+  }
+  .signature > p {
+    margin-top: 0;
+    margin-left: 1vw;
+    color: #fff;
+    font-size: 0.8rem;
+  }
+  #Logo_foot {
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+  }
+  #Logo_foot > img {
+    height: 9vh;
+    width: 25vw;
+  }
+  #Logo_foot > img:hover {
+    mix-blend-mode: normal;
   }
 }
 /**********RESPONSIVE TABLETTE*****FIN**************************************************************************************************************/
