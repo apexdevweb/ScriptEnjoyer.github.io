@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@100&family=Yeseva+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Pixelify+Sans:wght@400..700&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -594,11 +595,14 @@ article {
 .explodeContain > h1 {
   margin: 0;
   padding: 0;
-  font-family: "Pathway Extreme", sans-serif;
+  font-family: "Pixelify Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   text-transform: uppercase;
   text-align: center;
   color: #fff;
-  text-shadow: 1px 1px 3px #fff;
+  text-shadow: 1px 1px 3px #000;
   letter-spacing: 3px;
 }
 
