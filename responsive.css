@@ -26,7 +26,7 @@
     margin: 0;
     padding: 13px;
     position: absolute;
-    height: 160vh;
+    height: 190vh;
     width: 89vw;
     z-index: -99;
     overflow: hidden;
@@ -238,7 +238,7 @@
     margin-left: 25vw;
   }
   .separate2 {
-    margin-top: 20vh;
+    margin-top: 35vh;
     height: 0.2vh;
     width: 50vw;
     background-color: #fff;
@@ -721,7 +721,7 @@
     margin-right: auto;
     padding: 13px;
     position: absolute;
-    height: 130vh;
+    height: 140vh;
     width: 100%;
     z-index: -99;
     overflow: hidden;
