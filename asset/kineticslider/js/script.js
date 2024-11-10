@@ -1,8 +1,8 @@
 // images setup
 const images = [
-  "asset/kineticslider/img/codingpapper1.jpg",
-  "asset/kineticslider/img/codingpapper2.jpg",
-  "asset/kineticslider/img/codingpapper3.jpg",
+  "asset/kineticslider/img/codingpapper1.webp",
+  "asset/kineticslider/img/codingpapper2.webp",
+  "asset/kineticslider/img/codingpapper3.webp",
 ];
 
 // content setup

@@ -82,7 +82,7 @@ main {
   width: 100%;
   z-index: -99;
   overflow: hidden;
-  background: url("image/ModelFondfolio.png") no-repeat 50% 50%;
+  background: url("image/ModelFondfolio.webp") no-repeat 50% 50%;
   background-size: cover;
 }
 
