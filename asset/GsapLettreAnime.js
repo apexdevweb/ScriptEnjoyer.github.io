@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{let e=document.querySelectorAll(".letters"),t=e[0].textContent;e[0].innerHTML=t.split("").map(e=>`<span class="letter">${e}</span>`).join(""),gsap.fromTo(".letter",{opacity:0,y:50},{opacity:1,y:0,ease:"power3.out",duration:.5,stagger:.1})});

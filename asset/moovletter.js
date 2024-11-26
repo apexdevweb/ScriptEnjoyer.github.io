@@ -1,1 +1,0 @@
-var textWrapper=document.querySelector(".ml10 .letters");textWrapper.innerHTML=textWrapper.textContent.replace(/\S/g,"<span class='letter'>$&</span>"),anime.timeline({loop:!1}).add({opacity:1,targets:".ml10 .letter",rotateY:[-90,0],duration:10300,delay:(e,t)=>45*t}).add({targets:".ml10",opacity:1,duration:1e3,easing:"easeOutExpo",delay:1e3});
