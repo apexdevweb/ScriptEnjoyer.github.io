@@ -74,7 +74,7 @@
     border-radius: 10px;
   }
   .article__info {
-    margin-top: 245vh;
+    margin-top: 250vh;
     position: relative;
     height: auto;
     width: 100%;
@@ -101,7 +101,7 @@
     display: none;
   }
   #skill_list {
-    top: 85%;
+    top: 88%;
     margin-left: 0;
     position: absolute;
     height: auto;
