@@ -1,4 +1,28 @@
 @media screen and (max-width: 600px) {
+  /* index */
+  .wallpapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .ml15 {
+    line-height: 2rem;
+    font-size: 2rem;
+  }
+  .text-wrapper {
+    margin: 0;
+    height: auto;
+    width: 100%;
+  }
+  .ml14,
+  .letters {
+    letter-spacing: 4px;
+    font-size: 1.2rem;
+  }
+  /* home */
   .titleContainer {
     height: auto;
     justify-content: center;
